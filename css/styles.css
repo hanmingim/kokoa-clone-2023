@@ -9,6 +9,10 @@
 @import "components/user-components.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+<<<<<<< HEAD
+=======
+@import "components/no-mobile.css";
+>>>>>>> experimental
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";

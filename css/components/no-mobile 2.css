@@ -11,11 +11,7 @@
     top: 0;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 645px) {
-=======
-@media screen and (max-width:645px) {
->>>>>>> experimental
     #no-mobile {
         display: none;
     }
