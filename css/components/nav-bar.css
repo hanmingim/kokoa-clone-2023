@@ -19,15 +19,13 @@
 }
 
 @keyframes notificationAnimation {
-    0% {
-        transform: none;
+    0%{
+        transform:none;
     }
-
-    50% {
+    50%{
         transform: translateY(10px) rotateY(360deg);
     }
-
-    100% {
+    100%{
         transform: none;
     }
 }
@@ -55,30 +53,27 @@
 }
 
 @keyframes appearBtnAnimation {
-    from {
+    from{
         opacity: 0;
     }
-
-    to {
+    to{
         opacity: 1;
         transform: none;
     }
 }
 
-.nav__btn {
+.nav__btn{
     transform: translateY(50px);
     opacity: 0;
     animation: appearBtnAnimation 1s ease-in-out forwards;
 }
 
-.nav__btn:nth-child(2) {
+.nav__btn:nth-child(2){
     animation-delay: 0.3s;
 }
-
-.nav__btn:nth-child(3) {
+.nav__btn:nth-child(3){
     animation-delay: 0.5s;
 }
-
-.nav__btn:last-child {
+.nav__btn:last-child{
     animation-delay: 0.8s;
 }

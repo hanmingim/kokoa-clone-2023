@@ -4,6 +4,7 @@
     align-items: center;
     padding: var(--horizontal-space);
     margin-bottom: 15px;
+
 }
 
 .screen-header__title {
@@ -15,16 +16,15 @@
     margin-left: 25px;
 }
 
-@keyframes rotateCog {
-    from {
+@keyframes rotateCog{
+    from{
         transform: none;
     }
-
-    to {
+    to{
         transform: rotateZ(360deg);
     }
 }
 
-.screen-header__icons .fa-cog:hover {
+.screen-header__icons .fa-cog:hover{
     animation: rotateCog 1s linear infinite;
 }
